@@ -30,14 +30,14 @@ h1{
 h2{
   font-size: 32px;
   line-height: 1.5;
-  color: rgb(255, 166, 0);
+  color: rgba(255, 166, 0, 0.857);
 }
 
 h3{
   font-size: 25px;
   line-height: 1.5;
   padding: 10px 0;
-  color: rgb(255, 166, 0);
+  color: rgb(255, 166, 0, 0.857);
 }
 
 span{
@@ -71,7 +71,7 @@ nav ul{
 nav li{
   display: inline;
   padding-right: 20px;
-  font-size: large;
+  font-size: larger;
 }
 
 nav a{
@@ -82,7 +82,7 @@ nav a{
 
 nav a:hover, nav a:focus, nav a.active{
   text-decoration: underline;
-  color: rgb(255, 166, 0);
+  color: rgb(255, 166, 0, 0.857);
 }
 
 .skip a{
@@ -113,7 +113,7 @@ nav a:hover, nav a:focus, nav a.active{
 
 .container > :first-child {
   grid-column: 1/ span 2;
-  background-color: rgb(255, 166, 0);
+  background-color: rgba(255, 166, 0, 0.857);
   margin-bottom: -30px;
   margin-top: -20px;
 }
@@ -124,11 +124,13 @@ nav a:hover, nav a:focus, nav a.active{
   border-radius: 50%;
   margin-top: 20px;
   margin-bottom: 0px;
+  margin-left: 20px;
 }
 
 .img1, .img2, .img3, .img4, .img5{
   grid-column: 1 / span 1;
   background-color: white;
+  justify-content: center;
 }
 
 
